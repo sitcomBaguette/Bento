@@ -11,26 +11,26 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Ser Todopoderoso',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingMorning: '¡Buenos días!',
+  greetingAfternoon: 'Buenas tardes,',
+  greetingEvening: 'Buenas tardes,',
+  greetingNight: '¡A mimir!',
 
   // Weather
   weatherKey: 'InsertYourAPIKeyHere123456',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
-  language: 'en', // More languages in https://openweathermap.org/current#multi
+  language: 'es', // More languages in https://openweathermap.org/current#multi
 
-  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+  defaultLatitude: '40.416500',
+  defaultLongitude: '-3.702600',
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
@@ -48,7 +48,7 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://posteo.de/',
     },
     {
       id: '3',
@@ -66,7 +66,7 @@ const CONFIG = {
       id: '5',
       name: 'Reddit',
       icon: 'bookmark',
-      link: 'https://reddit.com',
+      link: 'https://old.reddit.com',
     },
     {
       id: '6',
